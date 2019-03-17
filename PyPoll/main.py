@@ -1,4 +1,5 @@
-#Student: Eric Messerich
+# Eric Messerich
+# HW #3
 
 import pandas as pd
 import os
