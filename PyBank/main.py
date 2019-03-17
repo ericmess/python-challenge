@@ -11,6 +11,10 @@ f = file("Budget_Data_Results.txt", "w")
 
 df = pd.read_csv(file_path)
 
+print >> f,("Eric Messerich")
+print >> f,("HW #3")
+print >> f,("")
+
 num_months = len(df["Date"].value_counts())
 print("Total Months: " + str(num_months))
 print >> f,("Total Months: " + str(num_months))

@@ -10,6 +10,10 @@ f = file("Election_Results.txt", "w")
 
 df = pd.read_csv(file_path)
 
+print >> f,("Eric Messerich")
+print >> f,("HW #3")
+print >> f,("")
+
 total_votes = len(df["Voter ID"].value_counts())
 print("-----------------------------------")
 print("Total Votes: " + str(total_votes))
