@@ -12,6 +12,7 @@ f = file("Budget_Data_Results.txt", "w")
 df = pd.read_csv(file_path)
 
 print >> f,("Eric Messerich")
+print >> f,("Data Analytics Cohort 3")
 print >> f,("HW #3")
 print >> f,("")
 
